@@ -1,4 +1,36 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.tempa {
+  padding: 10px;
+}
+
+.state {
+  padding: 10px;
+}
+
+
+
+html, body, #root {
+  min-height: 100%;
+}
+
+
+
+
+
+
+.App {
   text-align: center;
 }
 
