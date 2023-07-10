@@ -1,8 +1,13 @@
-export default function CurrentDay({day, date}) {
+import {format} from 'date-fns';
+
+
+
+export default function CurrentDay() {
 
     return (
         <div className='data'>
-            Saturday, Jun 14
+            {format(new Date(), 'EEEE, MMM do')}
         </div>
     )
 } 
+
